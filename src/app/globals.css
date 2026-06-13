@@ -1,0 +1,69 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 20% 98%; /* Mist Blue #F5F7F9 approximately */
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --primary: 224 59% 25%; /* Deep Navy #1A2D66 */
+    --primary-foreground: 210 40% 98%;
+    --secondary: 214 95% 93%;
+    --secondary-foreground: 222 47% 11%;
+    --muted: 214 32% 91%;
+    --muted-foreground: 215 16% 47%;
+    --accent: 210 100% 50%; /* Cerulean #1A80E6 */
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 224 59% 25%;
+    --radius: 1rem;
+    --saffron: 26 100% 50%; /* #FF6F00 */
+    --gold: 42 100% 50%; /* #FFB300 */
+  }
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222 47% 11%;
+    --secondary: 217 33% 17%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 210 100% 50%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --ring: 213 27% 84%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+}
+
+.bg-saffron { background-color: #FF6F00; }
+.text-saffron { color: #FF6F00; }
+.bg-gold { background-color: #FFB300; }
+.text-gold { color: #FFB300; }
+.bg-deep-navy { background-color: #1A2D66; }
+.text-deep-navy { color: #1A2D66; }
+.bg-mist-blue { background-color: #F5F7F9; }

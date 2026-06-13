@@ -1,0 +1,22 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-math",
+      "description": "Children learning math with a smile",
+      "imageUrl": "https://picsum.photos/seed/math1/1200/800",
+      "imageHint": "child math"
+    },
+    {
+      "id": "concept-sculptor",
+      "description": "Abstract mathematical symbols and geometry",
+      "imageUrl": "https://picsum.photos/seed/geometry1/600/400",
+      "imageHint": "mathematics geometry"
+    },
+    {
+      "id": "live-session",
+      "description": "Digital screen showing a live tutorial",
+      "imageUrl": "https://picsum.photos/seed/live1/800/600",
+      "imageHint": "online education"
+    }
+  ]
+}
